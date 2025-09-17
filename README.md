@@ -1,7 +1,7 @@
 
 # 🎮 遊戲預約系統 (Game Reservation System)
 
-這是一個簡單的 side project，模擬使用者可以透過輸入訊息來 **查詢、預約、取消預約遊戲**。  
+這是一個模擬使用者可以透過輸入訊息來 **查詢、預約、取消預約遊戲**。  
 我實作了兩個版本：  
 
 1. **Dictionary 版本**：使用 Python Dictionary 的方式暫存資料  
