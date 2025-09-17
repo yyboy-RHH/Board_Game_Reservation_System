@@ -1,5 +1,4 @@
 # Board_Game_Reservation_System
-Board_Game_Reservation_System
 
 # 🎮 遊戲預約系統 (Game Reservation System)
 
