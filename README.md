@@ -4,7 +4,7 @@
 這是一個簡單的 side project，模擬使用者可以透過輸入訊息來 **查詢、預約、取消預約遊戲**。  
 我實作了兩個版本：  
 
-1. **Dictionary 版本**：使用 Python dictionary 暫存資料  
+1. **Dictionary 版本**：使用 Python Dictionary 的方式暫存資料  
 2. **SQLite 版本**：使用 SQLite 資料庫持久化遊戲預約狀態  
 
 ---
