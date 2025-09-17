@@ -1,2 +1,34 @@
 # Board_Game_Reservation_System
 Board_Game_Reservation_System
+
+# 🎮 遊戲預約系統 (Game Reservation System)
+
+這是一個簡單的 side project，模擬使用者可以透過輸入訊息來 **查詢、預約、取消預約遊戲**。  
+我實作了兩個版本：  
+
+1. **Dictionary 版本**：使用 Python dictionary 暫存資料  
+2. **SQLite 版本**：使用 SQLite 資料庫持久化遊戲預約狀態  
+
+---
+
+## 📌 功能特色
+- 查詢尚未被預約的遊戲  
+- 預約特定遊戲  
+- 取消自己預約的遊戲  
+- 模擬多次對話互動  
+
+---
+
+# 🛠 技術細節
+
+## Dictionary 版本
+- 使用 Python 的 `dict` 模擬遊戲清單與使用者狀態  
+- 適合快速測試與原型設計  
+
+## SQLite 版本
+- 使用 Python `sqlite3` 進行資料庫操作  
+- 具備持久化特性，程式結束後資料仍會保留在 `game.db`  
+- 功能模組化：  
+  - `init_games()` 建立資料表並插入資料  
+  - `handle_msg()` 處理訊息  
+
