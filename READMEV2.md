@@ -50,6 +50,9 @@ python games_sqlite.py
 
 執行後，系統會提示你輸入訊息來進行操作。
 
+---
+
+備註:YES
 
 <!--
 
