@@ -24,21 +24,13 @@ The Content is not visible in the markdown file. Five symbols aren't in the same
 -->
 `````
 
-
+⚠️
 <!--
 
 Warren Buffett
 investflowers888@gmail.com
-
--->
-
-<!--
 https://gemini.google.com/app/a4f701ddf9c1568e?hl=zh-TW
 -->
 
 
 
-
-<!--
-999
--->
