@@ -2,7 +2,7 @@
 
 `Gemini AI and Link below`
 
-備註:YES
+``備註:YES``
 
 <!--
 
