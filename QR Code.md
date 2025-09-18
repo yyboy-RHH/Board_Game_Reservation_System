@@ -4,7 +4,7 @@
 
 ``備註:YES``
 
-```Credentials```
+```Show hoe to use the one, two or three symbols in the .md file```
 
 <!--
 
