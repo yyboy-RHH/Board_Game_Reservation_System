@@ -2,6 +2,8 @@
 
 Gemini AI and Link below
 
+備註:YES
+
 <!--
 
 Warren Buffett
