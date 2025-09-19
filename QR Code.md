@@ -27,7 +27,7 @@ The Content is not visible in the markdown file. Three symbols aren't in the sam
 
 The Content is not visible in the markdown file. Five symbols aren't in the same line.
 不管多少個反引號在不同一行，效果都一樣，但至少都各要3個，如果各2個以下，就等同於單行程式碼(inline code)
-[(不同行:多行程式碼區塊（code block）]
+[不同行:多行程式碼區塊（code block）]
 
 -->
 
