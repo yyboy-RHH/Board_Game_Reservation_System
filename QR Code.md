@@ -1,17 +1,3 @@
-<!--
-
-🔗 GitHub Repository
-<img width="390" height="82" alt="image" src="https://github.com/user-attachments/assets/b9c90ce3-a14d-4282-bce1-26b1026050a7" />
-
-<img width="1452" height="1085" alt="image" src="https://github.com/user-attachments/assets/5dffebdd-e6f2-4b84-8878-bfea8c707682" />
-
-https://reurl.cc/Rk78QD
-<img width="420" height="81" alt="image" src="https://github.com/user-attachments/assets/04c64a49-e5c4-4e27-a891-9e9e57beffaf" />
-
--->
-
-
-
 
 
 `Gemini AI and Link below`
@@ -46,6 +32,20 @@ The Content is not visible in the markdown file. Five symbols aren't in the same
 -->
 
 `````
+
+🔗 GitHub Repository
+
+<!--  
+
+<img width="390" height="82" alt="image" src="https://github.com/user-attachments/assets/b9c90ce3-a14d-4282-bce1-26b1026050a7" />
+
+<img width="1452" height="1085" alt="image" src="https://github.com/user-attachments/assets/5dffebdd-e6f2-4b84-8878-bfea8c707682" />
+
+https://reurl.cc/Rk78QD
+<img width="420" height="81" alt="image" src="https://github.com/user-attachments/assets/04c64a49-e5c4-4e27-a891-9e9e57beffaf" />
+
+-->
+
 
 ⚠️
 <!--
