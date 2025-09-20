@@ -1,7 +1,8 @@
 
 # 🎮 遊戲預約系統 (Game Reservation System)
 
-這是一個模擬使用者可以透過輸入訊息來 **查詢、預約、取消自己預約的遊戲 **  
+這個專案是一個命令行（Command-line Interface, CLI）遊戲預約系統。它允許使用者查詢"可預約的遊戲"、"預約遊戲"，以及"取消預約"。 
+
 實作了兩個版本：  
 
 1. **Dictionary 版本**：使用 Python Dictionary 的方式暫存資料  
