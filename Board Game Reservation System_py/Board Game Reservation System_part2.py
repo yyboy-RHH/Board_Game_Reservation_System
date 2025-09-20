@@ -1,4 +1,3 @@
-
 # import for database
 import sqlite3
 
@@ -91,4 +90,5 @@ while True:
     msg = input('輸入訊息：')
     if msg == '結束':
         break
+
     handle_msg(user_id, msg)
