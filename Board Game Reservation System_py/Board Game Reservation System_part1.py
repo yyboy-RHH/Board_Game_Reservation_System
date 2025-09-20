@@ -14,12 +14,12 @@ for i in range(1, 100):
         game_list = []
         for game, user_id in games.items():
             if user_id is None:
-                ##1.將遊戲加到game_list裡面
+                ##將遊戲加到game_list裡面
                 game_list.append(game)
                
         game_text = '尚可預約遊戲：\n'
         for game in game_list:
-            ##2.將所有尚可預約的遊戲加到game_text裡面
+            ##將所有尚可預約的遊戲加到game_text裡面
             game_text = game_text + game + '\n'
            
         print(game_text)
@@ -30,8 +30,8 @@ for i in range(1, 100):
             if game == game_name:
                 found = True
                 if user_id is None:
-                    ##3.將想要預約的遊戲在字典裡對應的value改成user_id
-                    ##  例如，想要預約小瓦隆，請將字典games改成如下
+                    ##將想要預約的遊戲在字典裡對應的value改成user_id
+                    ##例如，想要預約小瓦隆，請將字典games改成如下
                     '''
                     games = {'小瓦隆' : Eric,
                              '雨聲' : None,
@@ -47,8 +47,8 @@ for i in range(1, 100):
     elif msg == '想取消預約':
         for game, user_id in games.items():
             if user_id == current_user_id:
-                ##4.將遊戲對應的valule改回None表示遊戲取消預約
-                ##  例如將小瓦隆取消預約，它在字典對應的value應改為None
+                ##將遊戲對應的valule改回None表示遊戲取消預約
+                ##例如將小瓦隆取消預約，它在字典對應的value應改為None
                 '''
                 games = {'小瓦隆' : None,
                          '雨聲' : None,

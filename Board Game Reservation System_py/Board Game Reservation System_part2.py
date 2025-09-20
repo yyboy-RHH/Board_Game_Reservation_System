@@ -27,7 +27,7 @@ def handle_msg(user_id, msg):
 
     # implement reservation
     if msg == '想看遊戲種類':
-        ##1.用SQL查詢所有未被預約的遊戲
+        ##用SQL查詢所有未被預約的遊戲
         games = cursor.execute("SELECT * FROM reservation WHERE user_id IS NULL")
         
         game_text = '尚可預約遊戲：\n'
@@ -38,7 +38,7 @@ def handle_msg(user_id, msg):
     elif msg[0:3] == '想預約':
         game_name = msg[3:]
 
-        ##2.取出所有遊戲，放到games變數裡面
+        ##取出所有遊戲，放到games變數裡面
         games = cursor.execute("SELECT * FROM reservation")
         found = False
         for game in games:
@@ -46,7 +46,7 @@ def handle_msg(user_id, msg):
                 found = True
                 if game[2] is None:
 
-                    ##3.將預約的遊戲 user_id設成此使用者
+                    ##將預約的遊戲 user_id設成此使用者
                     cursor.execute("UPDATE reservation \
                                   SET user_id = ? \
                                   WHERE game = ?", (user_id, game_name))
@@ -58,7 +58,7 @@ def handle_msg(user_id, msg):
             print('並沒有此款遊戲')
             
     elif msg == '想取消預約':
-        ##4.將所有此使用者預約之遊戲取出，放到games變數內
+        ##將所有此使用者預約之遊戲取出，放到games變數內
         games = cursor.execute("SELECT * FROM reservation where user_id = ?", (user_id,))
         canceled_game_name = []
         found = False
@@ -66,7 +66,7 @@ def handle_msg(user_id, msg):
             canceled_game_name.append(game[1])
         for game in canceled_game_name:
 
-            ## 將此遊戲user_id設回None
+            ##將此遊戲user_id設回None
             cursor.execute("UPDATE reservation \
                           SET user_id = ? \
                           WHERE game = ?", (None, game))
@@ -90,5 +90,4 @@ while True:
     msg = input('輸入訊息：')
     if msg == '結束':
         break
-
     handle_msg(user_id, msg)
